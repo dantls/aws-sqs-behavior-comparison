@@ -4,7 +4,7 @@ A visual demonstration tool comparing AWS SQS Standard and FIFO queues with Dead
 
 ## Architecture
 
-![SQS Comparison Architecture](./generated-diagrams/sqs-comparison-architecture-corrected.png)
+![SQS Comparison Architecture](./generated-diagrams/sqs-comparison-architecture.png)
 
 ## Features
 

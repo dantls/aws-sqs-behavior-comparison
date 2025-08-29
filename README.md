@@ -2,6 +2,10 @@
 
 A visual demonstration tool comparing AWS SQS Standard and FIFO queues with Dead Letter Queue (DLQ) handling.
 
+## Architecture
+
+![SQS Comparison Architecture](./generated-diagrams/sqs-comparison-architecture-corrected.png)
+
 ## Features
 
 - **Real-time Kanban Board**: Visual representation of message flow through different stages
@@ -33,10 +37,7 @@ FIFO_DLQ_URL=https://sqs.us-east-1.amazonaws.com/YOUR_ACCOUNT/fifo-dlq.fifo
 PORT=3000
 ```
 
-3. Create SQS queues and DLQs (if using the provided script):
-```bash
-./create-dlq.sh
-```
+3. Create SQS queues and DLQs using AWS CLI or AWS Console
 
 ## Usage
 
